@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MyKarsol</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#"><img src="img/logo1.png" alt="logo"></a>
+        </div>
+        <div class="toggle">
+            <a href="#" ><ion-icon name='menu-outline'></ion-icon></a>
+        </div>
+
+        <ul class="menu">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Team & Resources</a></li>
+            <li><a href="#projects">Major Projects</a></li>
+            <li><a href="#contact">Contact Details</a></li>
+        </ul>
+    </nav>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <script>
+
+        $(function(){
+            $(".toggle").on("click", function(){
+                if($(".menu").hasClass("active")){
+                    $(".menu").removeClass("active");
+                    $(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>");
+                } else{
+                    $(".menu").addClass("active");
+                    $(this).find("a").html("<ion-icon name='close-outline'></ion-icon>");
+                }
+            });
+        });
+
+    </script>
+
+<section class="about" id="about">
+    <div class="content">
+        <h1 class="heading">
+            <span>A</span>
+            <span>b</span>
+            <span>o</span>
+            <span>u</span>
+            <span>t</span>
+            <span class="space"></span>
+            <span>U</span>
+            <span>s</span>
+        </h1>
+        <p>Megh Engineering Consultants, Nagpur offers consultancy services in 
+            infrastructure sector. MEC provides services of civil & structural engineering. We 
+            specialize in structural steel building and pre-engineered steel buildings (PEB). 
+            The team of MEC has completed noteworthy projects Pan India.</p>
+        <p>Our Ethos-Cutting-Edge solutions and a focus on our values of excellence, 
+            integrity, pioneering, responsibility and unity.</p>
+        <p>Our Vision-To be a part of the center of excellence that promotes the growth of 
+            infrastructure and sustainable development.</p>
+        <p>Our Mission- To make every structure functionally efficient and robust, ensuring 
+            safety, serviceability and sustainability using innovative solutions.</p>
+        <p>MEC Culture/Work Style- MEC has created a safe and accessible working 
+            environment for its employees. We are known for its rewarding and collaborative 
+            work culture. We promote career growth as well as productivity of its employees
+            with the help of collaborative decision making and innovative approach to 
+            solutions. MEC believes in commitment and quality service.
+            We offer consultancy services for the Structural Steel Sector including Pre-engineered Building Industry for project design & management. MEC is a team of 
+            professional engineers with experience in the industry in all the department of 
+            PEB industry.
+            </p>
+        <table style="width:100%">
+            <tr>
+                <td>Marketing</td>
+                <td>Products & Systems Standard Operating Procedures</td>
+                <td>Design Estimates & Project Cost</td>
+            </tr>
+            <tr>
+                <td>Sales </td>
+                <td>Projects Management</td>
+                <td>Engineering–Design & Detailing
+                </td>
+            </tr>
+            <tr>
+                <td>nventory Management</td>
+                <td>Production Control</td>
+                <td>Erection & Quality Assurance</td>
+            </tr>
+        </table>
+        <p>MEC offers one-stop and most optimum solutions integrating customized system 
+            of all the departments as per the best industry practices.</p>
+
+    </div>
+
+</section>
+
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>S</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    <div class="content">
+
+
+        <h3>Projects- Planning stage</h3>
+        <ol>
+            <li>Architecture</li>
+                <ul>
+                    <li> Complete Layout Plan & Development of Site.</li>
+                    <li> Road Layout and Landscaping </li>
+                    <li> Approval Drawings</li>
+                    <li> Detailed drawing for each building with plan, elevation & sections</li>
+                    <li> Preparation of detailed estimates, budgets & schedules</li>
+                </ul>
+            <li>Structure</li>
+                <ul>
+                    <li>Substructure design- Detailed foundation design and drawing </li>
+                    <li>Complete design of superstructure (depends on project-to-project basis). 
+                        However, PEB design to be under scope of PEB vendor with vetting to be 
+                        done by MEC.</li>
+                </ul>
+            <li>Tendering</li>
+                <ul>
+                    <li>Definition of Project Specifications</li>
+                    <li>Preparation of Tender Documents and Drawings</li>
+                    <li> Calling of Tenders</li>
+                    <li> Prequalification and Evaluation of Bidders</li>
+                    <li> Assistance in Contractor Finalization </li>
+                </ul>
+            <li>Working Drawings</li>
+                <ul>
+                    <li> Foundation Drawings</li>
+                    <li>Detailed Elevation Drawings for Project Definition</li>
+                    <li> Entrance Details</li>
+                    <li> Doors and Window Details</li>
+                    <li> Building Services Details</li>
+                </ul>
+        </ol>
+
+        <h3>Projects- Execution stage</h3>
+        <ol>
+            <li>Scope of these services is defined in complete definition of project.</li>
+            <li>Project management service is given with a basic objective of providing 
+                timely completion and cost control.</li>
+            <li>For Industrial Buildings/ Pre-Engineered Buildings</li>
+                <ul>
+                    <li>Preliminary design & design estimate with complete tonnage of building</li>
+                    <li> Proposal drawings</li>
+                    <li> Detailed design at job stage</li>
+                        <ul>
+                            <li> Optimization on Weight/ tonnage basis</li>
+                            <li> Optimization on Cost Basis/Resources</li>
+                            <li> Combination of Structural Components Built Up/ Hot Rolled/Cold 
+                                Formed</li>
+                        </ul>
+                    <li> General Arrangement Drawing</li>
+                        <ul>
+                            <li> Anchor Bolt Plan Drawing</li>
+                            <li>Roof framing and Roof Sheeting Plan</li>
+                            <li> Frame Cross Section</li>
+                            <li> Sidewall & Endwall Framing and Sheeting </li>
+                            <li>Crane Beams & Layout</li>
+                            <li>Mezzanine Layout & Structural Details</li>
+                            <li> Staircase Details</li>
+                        </ul>
+                    <li> Shop Fabrication Drawings for</li>
+                        <ul>
+                            <li> Main Frame Components- Columns, Rafters</li>
+                            <li> Secondary Members- Purlins & Girts</li>
+                            <li> Bracing- Rod/Angle/Portal</li>
+                            <li>Sheeting- Roof/Wall</li>
+                            <li> Trims, Clips &Closures</li>
+                            <li> Hardware Components- Bolts/Fasteners</li>
+                        </ul>
+                    <li> Shipper list</li>
+                        <ul>
+                            <li> Bill of Material- Quantity Takeoff</li>
+                            <li> Erection Drawings</li>
+                        </ul>
+                </ul>
+            <li>Phase-wise detailing for large projects</li>
+            <li> Product Development and Product Enhancement</li>
+        </ol>
+        
+    </div>
+    
+</section>
+
+<section class="team" id="team">
+    <h1 class="heading">
+        <span>T</span>
+        <span>e</span>
+        <span>a</span>
+        <span>m</span>
+        <span class="space"></span>
+        <span>&</span>
+        <span class="space"></span>
+        <span>R</span>
+        <span>e</span>
+        <span>s</span>
+        <span>o</span>
+        <span>u</span>
+        <span>r</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="content">
+       
+
+        <div class="row">
+            <div class="column left">
+                <h5>Jitendra Meghrajani</h5>
+                <h3>CEO</h3>
+                <h3> M.Tech (Structures) </h3>    
+                <h3> NIT Hamirpur</h3>
+            </div>
+            <div class="column right" >
+                <p>Jitendra Meghrajani is the promoter and Chief 
+                    Executive Officer at MEC. He completed M.Tech in 
+                    Structures from National institute of technology (NIT),
+                    Hamirpur.
+                </p>
+                <p>10+ years of managerial experience in design and 
+                    detailing of various of structures. He has a rich working 
+                    experience with Neo Infraservices Pvt. Ltd. Nagpur as a 
+                    Senior Design Engineer. He then joined Blueladder EPC 
+                    Solutions as Design Head and guided the company 
+                    through its growth phase.</p>
+                <p>Committed to PEB Structures, Industrial Steel 
+                    Buildings& Operational Plants, he has executed complex 
+                    structures requiring detailed engineering for machinery 
+                    plant buildings around Central India and western 
+                    Maharashtra.</p>
+                <p>He now leads complex turnkey projects that require
+                    planning, tendering, substructure, superstructure 
+                    design and detailing as well as project management.</p>
+                <p>  Major Projects Executed  </p>
+
+                         <ul>
+                            <li> 4 Lacs SQFT Warehouse Building for Global 
+                                Logistics at Bhiwandi, Maharashtra</li>
+                            <li> 14 m Cantilever Structure for TOYOTA Kirloskar, 
+                                Bangalore</li>
+                            <li> 2 Lacs SQFT Warehouse Building for Balaji 
+                                Logistics at Bhiwandi, Maharashtra.</li>
+                        </ul>
+                
+                    
+                
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column left">
+                <h5>Sneha Bhaturkar Meghrajani</h5>
+                <h3>Key Account 
+                    Manager</h3>
+                <h3> M.Tech PGDM-IMT 
+                    Nagpur</h3>   
+                
+            </div>
+            <div class="column right" >
+                
+                <p>Sneha is a management & networking professional with 
+                    good pedigree from Institute of Management 
+                    Technology, Nagpur. She is a seasoned branding & 
+                    marketing resource with an extensive experience in 
+                    Marketing of Pre-engineered Buildings & Steel 
+                    Structure. She has dedicated her career in deriving the 
+                    best practices for Customer Relationship Management, 
+                    Standard Operating Procedures, Digital Marketing & 
+                    Client Communications. </p>  
+                
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column left">
+                <h5>Saurabh Dadarao 
+                    Lakhamapure</h5>
+                <h3>Design Manager</h3>
+                <h3> M.tech (Structures) </h3>   
+                
+            </div>
+            <div class="column right" >
+                
+                <p>Started as a Design Engineer at a consultancy firm in 
+                    Nagpur with specialization in PEB structures. Later 
+                    worked as a senior Design Engineer at Blueladder EPC 
+                    Solutions. Has 4+ years of experience in PEB structures 
+                    with sound Knowledge of Indian as well as American 
+                    Code like AISC, MBMA. Proficient in software’s like 
+                    STAAD.Pro, AutoCAD, Microsoft excel and Revit.
+                    He has Published paper on “Sustainable Smart 
+                    Structure” in International Journal of Engineering 
+                    Research in Mechanical and Civil Engineering, Vol 2, 
+                    Issue 3, Mar 2017. </p> 
+                
+                
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column left">
+                <h5>Pijush Shil</h5>
+                <h3>RCC Consultant</h3>
+                <h3> M.tech (Structures) </h3>   
+                
+            </div>
+            <div class="column right" >
+                
+                <p>B. Tech in Civil Engineering from NIT Agartala, M.Tech
+                    in structural engineering. Has worked on major RCC 
+                    projects in CSIR- Central building research institute 
+                    (CBRI) Roorkee. Started his career as an Engineer in 
+                    execution department in NCCL for 3 years working on 
+                    major bridge projects. Later worked as a structural 
+                    design engineer in ACS design at Bengaluru for 3+ years.</p>  
+                <p>  Major Projects</p>
+
+                    <ul>
+                        <li>2.5 km flyover project at Agartala</li>
+                        <li>G+14 RCC shear wall structure at Karnataka</li>
+                        <li>CPRI command center at Bengaluru</li>
+                        <li>Quarantine hospital at Belgum in Karnataka</li>
+                        <li>150 numbers of school in Nepal (Govt. of India)</li>
+                    </ul> 
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column left">
+                <h3>Resources</h3>  
+                
+            </div>
+            <div class="column right" >
+                
+                    <ol>
+                        <li>Access to various software for structural analysis and 
+                            detailing</li>
+                        <ol type="a">
+                            <li>STAAD Pro- It’s a FEM based 3D structural analysis and 
+                                design software</li>
+                            <li>ETABS- It’s a 3D analysis and design software used for multi-storied buildings. Earthquake linear and non-linear analysis 
+                                can be done on ETABS.</li>
+                            <li>ZWCAD- Computer aided drafting</li>
+                            <li>PRIMAVERA- Project Management software</li>
+                        </ol>
+                        <li>Printer with A3 printing facility available</li>
+                    </ol> 
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="projects" id="projects">
+    <h1 class="heading">
+        <span>M</span>
+        <span>a</span>
+        <span>j</span>
+        <span>o</span>
+        <span>r</span>
+        <span class="space"></span>
+        <span>P</span>
+        <span>r</span>
+        <span>o</span>
+        <span>j</span>
+        <span>e</span>
+        <span>c</span>
+        <span>t</span>
+        <span>s</span>
+    </h1>
+    <div class="content">
+        <h3>Project - Bharat Seats Ltd., Ahmedabad Gujarat </h3>
+          <h3>Size & Weight - 8102 SQM, 633 MT </h3>
+        <h3>Features</h3>
+            <ul>
+                <li>Mezzanine Live Load of 3 MT/SQM for Machinery Support</li>
+                <li> Two Level Mezzanine </li>
+                <li> Building Height - 19m</li>
+                <li>Composite Slab Design</li>
+            </ul>
+    </div>
+    <div class="box-container">
+        
+        <div class="box">
+            <img src="img/project1.png" alt="">
+        </div>
+    </div>
+    <div class="box-container">
+        
+        <div class="box">
+            <img src="img/project1.2.png" alt="">
+        </div>
+    </div>
+    <div class="box-container">
+        
+        <div class="box">
+            <img src="img/project1.3.png" alt="">
+        </div>
+    </div>
+    <div class="box-container">    
+        <div class="box">
+            <img src="img/project1.4.png" alt="">
+        </div>
+    </div>
+
+    <div class="content">
+        <h3>Project - Balaji Logistics, Bhiwandi Maharashtra</h3>
+          <h3>Size- 18249 SQM, 776 MT</h3>
+        <h3>Features</h3>
+            <ul>
+                <li> Multi-Span 93m wide</li>
+                <li>Structure with Jack Portal Arrangement</li>
+                <li> Standing Seam Roofing</li>
+                <li> Multiple Offsets & Mezzanine</li>
+                <li> 12m Clear Height</li>
+            </ul>
+    </div>
+    <div class="box-container">
+        
+        <div class="box">
+            <img src="img/project2.1.png" alt="">
+        </div>
+    </div>
+    <div class="box-container">
+        
+        <div class="box">
+            <img src="img/project2.2.png" alt="">
+        </div>
+    </div>
+    <div class="box-container">
+        
+        <div class="box">
+            <img src="img/project2.3.png" alt="">
+        </div>
+    </div>
+
+    <div class="content">
+        <h3>Project- Toyota Kirloskar Ltd. (Kaku Canopy Structure), Bangalore Karnataka</h3>
+          <h3>Size -1229 SQM, 66 MT</h3>
+        <h3>Features</h3>
+            <ul>
+                <li>14m Cantilevered overhangs supported on Box Girders</li>
+                <li>Rafters designed as open-web Trusses</li>
+                <li>32m length Box girders supporting overhangs</li>
+                <li>Columns designed as Star Columns</li>
+                <li>Curved roof</li>
+            </ul>
+    </div>
+    <div class="box-container">
+        
+        <div class="box">
+            <img src="img/project3.png" alt="">
+        </div>
+    </div>
+
+    <div class="content">
+        <h3>Project- ABIS Exports Pvt. Ltd., Badnawar MP</h3>
+          <h3>Size - 9974 Sqm, 329.12 MT</h3>
+        <h3>Features</h3>
+            <ul>
+                <li> 50m Clear Span Structure with 7m Cantilevers</li>
+                <li>Jack Beams along End Walls for column-free spans</li>
+                <li>Composite Columns at End Walls</li>
+            </ul>
+    </div>
+    <div class="box-container">
+        
+        <div class="box">
+            <img src="img/project4.png" alt="">
+        </div>
+    </div>
+
+    <div class="content">
+        <h3>Project - Gode Engineering Pvt. Ltd., Hingna, Nagpur</h3>
+          <h3>Size -1170 Sqm, 54 MT</h3>
+        <h3>Features</h3>
+            <ul>
+                <li> Multispan structure with multiple cranes & Mezzanine</li>
+                <li> 2m wide Cantilever Mezzanines along side walls</li>
+            </ul>
+    </div>
+    <div class="box-container">
+        
+        <div class="box">
+            <img src="img/project5.1.png" alt="">
+        </div>
+    </div>
+    <div class="box-container">
+        
+        <div class="box">
+            <img src="img/project5.2.png" alt="">
+        </div>
+    </div>
+    <div class="box-container">
+        
+        <div class="box">
+            <img src="img/project5.3.png" alt="">
+        </div>
+    </div>
+
+    <div class="content">
+        <h3>Project- Mankind Pharma Ltd., Nagpur</h3>
+          <h3>Size -2320 Sqm, 93MT</h3>
+        <h3>Features</h3>
+            <ul>
+                <li> Terrace shed for storage expansion.</li>
+                <li> Two RCC buildings connected at terrace level with steel beams</li>
+                <li>PEB G+1 structure above terrace with material lift arrangement.</li>
+                <li>False ceiling arrangement for HVAC and lighting.</li>
+            </ul>
+    </div>
+    <div class="box-container">
+        
+        <div class="box">
+            <img src="img/project6.1.png" alt="">
+        </div>
+    </div>
+    <div class="box-container">
+        
+        <div class="box">
+            <img src="img/project6.2.png" alt="">
+        </div>
+    </div>
+    
+</section>
+
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>C</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+        <span class="space"></span>
+        <span>D</span>
+        <span>e</span>
+        <span>t</span>
+        <span>a</span>
+        <span>i</span>
+        <span>l</span>
+        <span>s</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <h3>For Online Consultation Call</h3>
+            <a href="#"> +91 9823 055 220</a>
+        </div>
+        <div class="box">
+            <h3>Email</h3>
+            <a href="jitendra.meg@gmail.com">jitendra.meg@gmail.com</a>
+        </div>
+        <div class="box">
+            <h3>Website</h3>
+            <a href="www.meghconsultants.com">www.meghconsultants.com</a>
+        </div>
+
+    </div>
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
